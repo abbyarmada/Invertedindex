@@ -8,12 +8,12 @@ engines:
   duplication:
     enabled: true
     config:
-      config: .eslintrc.yml
       languages:
         - javascript
   eslint:
     enabled: true
-    channel: "eslint-3"
+    config:
+      config: .eslintrc.yml
   fixme:
     enabled: true
 ratings:
